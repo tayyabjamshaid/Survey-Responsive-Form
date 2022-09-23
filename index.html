@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Survey Form</h2>
+<div class="main">
+    <div class="mainBody">
+        <h3>Let us know how we can improve freeCodeCamp</h3>
+      
+    
+        <form class="form">
+            
+            <div class="perTag" >
+                <label>* Name:</label>
+                <input type="text" />
+            </div>
+            <div class="perTag">
+                <label>* Email:</label>
+                <input type="text" />
+            </div>
+            <div class="perTag">
+                <label>* Age:</label>
+                <input type="text" />
+            </div>
+            <div class="perTag">
+                <label>Which option best describes your current role?</label>
+            
+                <select class="languages" id="lang">
+                    <option value="javascript">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="java">Java</option>
+                 </select>
+           
+            </div>
+            <div class="perTag">
+                <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+            
+              <div class="radioParent">
+                <div class="radioChild">
+                <input type="radio" class="radioInput"/>Definately</div>
+            <div class="radioChild">  <input type="radio" class="radioInput"  />May be </div>
+                <div class="radioChild"><input type="radio" class="radioInput" />Not Sure</div>
+
+              </div>
+            
+            </div>
+        <div class="perTag">
+            <label>What do you like most in FCC:</label>
+        
+            <select class="languages1" id="lang">
+                <option value="javascript">Select an option</option>
+                <option value="front">Front End Project</option>
+                <option value="back">Back End Project</option>
+            </select>
+        
+        </div>
+        <div class="perTag">
+            <label>Things that should be improved in the future (Check all that apply):</label>
+        
+            <div class="radioParent">
+                <div class="radioChild">
+                    <input type="radio" class="radioInput" />Front End Projects
+                </div>
+                <div class="radioChild"> <input type="radio" class="radioInput" />Back End Projects </div>
+                <div class="radioChild"><input type="radio" class="radioInput" />Data Visualization</div>
+        
+            </div>
+        
+        </div>
+           
+        </form>
+    </div>
+</div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

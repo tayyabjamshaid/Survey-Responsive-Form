@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    width: 100vw;
+        height: 100vh;
+    background-color: #a9d7d1;
+}
+.container h2{
+    text-align: center;
+    padding: 1%;
+    font-weight: bold;
+}
+.main{
+    width: 70vw;
+    height: 65vh;
+    margin: auto;
+    background-color: #fafafa;
+}
+.mainBody{
+    width: 90%;
+    height: 70%;
+        margin: auto;
+}
+.mainBody h3{
+    text-align: center;
+    padding: 1% 0;
+}
+
+ .form .perTag{
+    display: grid;
+    grid-template-columns: 320px 300px;
+   grid-gap: 13px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+ }
+ .form .perTag label{
+    font-size: 17px;
+    text-align: right;
+    
+ }
+.form .perTag input {
+    padding: 4px 2px;
+    border: 2px solid black;
+}
+.form .perTag .languages{
+    padding: 6px 2px;
+        width: 109px;
+        border: 2px solid black;
+}
+.form .perTag .radioParent{
+    margin-top: 4%;
+}
+.form .perTag .radioParent .radioChild{
+    margin: 0.5%;
+}
+.form .perTag .radioParent .radioChild .radioInput{
+    margin-right: 2%;
+    
+}
+.form .perTag .languages1 {
+    padding: 6px 2px;
+    width: 129px;
+    border: 2px solid black;
+}
+@media screen and (max-width:1000px) {
+    .main {
+            width: 90vw;
+            height: 100vh;
+            margin: auto;
+            background-color: #fafafa;
+        }
+                
+}
+@media screen and (max-width:722px) {
+.form .perTag {
+        display: grid;
+        grid-template-columns: 250px;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0;
+        grid-column-gap: 0;
+        grid-row-gap:9px ;
+    }
+        .form .perTag label {
+            font-size: 14px;
+            text-align: center;
+    
+        }
+                                .form .perTag .radioParent {
+                                    margin-top: 0;
+                                }
+                           .form .perTag .radioParent .radioChild  {
+                       font-size: 13px;            
+                           }
+                .form .perTag .languages {
+                   margin-left: 30%;
+                }
+                                 .form .perTag .languages1 {
+                                     margin-left: 30%;
+                                 }
+                                                                 .form .perTag .radioParent {
+                                                                     margin-top: 2%;
+                                                                     margin-left: 30%;
+                                                                 }
+}
